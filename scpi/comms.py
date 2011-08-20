@@ -1,4 +1,5 @@
 import serial as pyserial
+from scpi.exceptions import *
 
 class SCPI_Serial(object):
 	def __init__(self, *args, **kw):
