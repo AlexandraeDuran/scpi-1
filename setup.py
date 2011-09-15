@@ -4,9 +4,9 @@ from setuptools import setup, find_packages
 
 setup(name='scpi',
       version='1.0',
-      description='SCPI Serial protocol',
+      description='Standard Commands for Programmable Instruments',
       author='Taneli Kaivola',
-      author_email='tanelikaivola@github.com',
+      author_email='dist+github@desu.fi',
       url='',
-      packages=['scpi'],
+      packages=find_packages(),
      )
