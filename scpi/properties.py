@@ -1,5 +1,6 @@
 from decimal import Decimal
 from scpi.types import SCPI_Decimal
+from scpi.exceptions import SCPI_Out_Of_Range_Exception
 
 class SCPI_Property(object):
 	def __init__(self, verb):
