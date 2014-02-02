@@ -1,12 +1,13 @@
-Install the environment:
-------------------------
+Install the environment
+---
 apt-get install python-virtualenv
 
 virtualenv virtualenv
 . virtualenv/bin/activate
 pip install pyserial
 
-Run:
+Using the library
+---
 cd scpi
 python
 
